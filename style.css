@@ -2,31 +2,54 @@ body{
     margin: 0;
     padding: 0;
 }
+
+nav li{
+    display: inline;
+list-style-type: none;}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color: black;
+    background-color: aqua;
+}
+
+nav a:hover{
+color: rgb(255, 153, 0);
+}
+
 .seite-1 {
     display: flex;
     justify-content: space-around;
 }
+
+
 h1{
-    font-size: 70px;
+    font-size: 60px;
     text-align: center;
     text-decoration: underline;
-
 }
 
 h2{
-    font-size: 50px;
+    font-size: 40px;
     text-decoration: underline;
     text-align: center;
 }
 
 .seite-1 img{
     width: 300px;
-    height: 500px;
+    height: 400px;
     }
 
-ul{
+.stadt-ul{
     list-style-type: none;
     font-weight: bold;
+}
+
+.stadt-ul li{
+    margin: 10px;
+    font-size: 20px;
 }
 
 .erfurt, .jena, .weimar{
@@ -36,14 +59,11 @@ ul{
    align-items: center;
     }
 
-
 .seite-2 {
     padding: 0 50px;
    display: flex;
    flex-direction: column;
-flex-wrap: wrap;
-    
-    
+flex-wrap: wrap;  
 }
 
 .seite-2 img{
@@ -53,10 +73,10 @@ flex-wrap: wrap;
 
 .dom, .zoo, .ega {
 display: flex;
+margin: 50px 0;
 }
 
 p{
-
     width: 60vw;
     margin: 100px;
     font-size: 30px;
