@@ -1,39 +1,42 @@
-html{
-    margin: 0;
-    padding: 0;
-    height: 100vh;    }
+html {
+    height: 100vh;    
+}
 
-.seite-1-background{
+.seite-1-background {
     background-image: linear-gradient(to bottom right, orange, silver, orange);
 }
-nav{
+
+nav {
     position: fixed;
+    top: 0;
+    left: 0;
 }
 
-nav li{
+nav li {
     display: inline;
     list-style-type: none;
 }
 
-a{
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+
+a {
    color: white;
    background-color: black; 
 }
 
-a:hover{
+a:hover {
     color: gold;
-}
-
-nav a{
-    text-decoration: none;
-    font-size: 20px;
-    padding: 20px;
 }
 
 h1{
     font-size: 60px;
     text-align: center;
     text-decoration: underline;
+    margin-top: 50px;
 }
 
 .seite-1 {
@@ -41,81 +44,81 @@ h1{
     justify-content: space-around;
 }
 
-h2{
+h2 {
     font-size: 40px;
     text-decoration: underline;
     text-align: center;
 }
 
-img{
+img {
     border: 5px solid grey;
 
 }
 
-.seite-1 img{
+.seite-1 img {
     width: 300px;
     height: 400px;
     }
 
-.stadt-ul{
+.stadt-ul {
     list-style-type: none;
     font-weight: bold;
 }
 
-.stadt-ul li{
+.stadt-ul li {
     margin: 10px;
     font-size: 20px;
 }
 
-.seite-1 section a{
+.seite-1 section a {
     margin-top: 50px;
     text-decoration: none;
     padding: 10px;
     
 }
 
-.erfurt, .jena, .weimar{
+.städte-seite-1 {
     width: 30vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    }
+}
 
-.nebenseiten  {
+.nebenseiten {
     padding:0 50px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    
 } 
 
-.nebenseiten-background{
+.nebenseiten-background {
     background-image: linear-gradient(to right,orange, grey, orange);
 }
 
-.nebenseiten h2{
+.nebenseiten h2 {
     text-align: left;
     margin-top: 140px;
 }
 
-.h2-rechts-erfurt, .h2-rechts-weimar, .h2-rechts-jena{
+.h2-rechts-erfurt, .h2-rechts-weimar, .h2-rechts-jena {
     text-align: right !important; 
     margin-bottom: 100px;
 }
-.h2-rechts-erfurt{
+
+.h2-rechts-erfurt {
      margin-right: 20%;
    
 }
 
-.h2-rechts-jena{
+.h2-rechts-jena {
    margin-right: 13%;
 }
 
-.h2-rechts-weimar{
+.h2-rechts-weimar {
     margin-right: 3%; 
 }
 
-.nebenseiten img{
+.nebenseiten img {
     width: 500px;
     height: 500px;
     /* border-radius: 50%; */
@@ -126,23 +129,22 @@ img{
     margin: 50px 0;
 }
 
-p{
+p {
+    display: flex;
+    align-items: center;
     width: 60vw;
     margin: 50px;
     font-size: 30px;
-    display: flex;
-    align-items: center;
-
 }
 
-.zurück-zur-hauptseite{
+.zurück-zur-hauptseite {
     text-decoration: none;
     font-size: 20px;
     padding: 20px;
    
 }
 
-div{
+div {
     margin-top: 150px;
 }
 
