@@ -74,7 +74,7 @@ h2{
     text-align: left;
 }
 
-#h2-rechts{
+.h2-rechts{
     text-align: right; 
     margin-right: 20%;
 }
