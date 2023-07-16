@@ -1,33 +1,35 @@
-body{
+html{
     margin: 0;
     padding: 0;
+    height: 100vh;
     }
 
+.seite-1-background{
+    background-image: linear-gradient(to bottom right, orange, grey, orange);
+}
 nav{
     position: fixed;
 }
 
 nav li{
     display: inline;
-    list-style-type: none;}
+    list-style-type: none;
+}
+
+a{
+   color: white;
+   background-color: black; 
+}
+
+a:hover{
+    color: rgb(255, 153, 0);
+}
 
 nav a{
     text-decoration: none;
     font-size: 20px;
     padding: 20px;
-    color: black;
-    background-color: aqua;
 }
-
-nav a:hover{
-    color: rgb(255, 153, 0);
-}
-
-.seite-1 {
-    display: flex;
-    justify-content: space-around;
-}
-
 
 h1{
     font-size: 60px;
@@ -35,10 +37,19 @@ h1{
     text-decoration: underline;
 }
 
+.seite-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
 h2{
     font-size: 40px;
     text-decoration: underline;
     text-align: center;
+}
+
+img{
+    border: 5px solid grey;
 }
 
 .seite-1 img{
@@ -56,6 +67,13 @@ h2{
     font-size: 20px;
 }
 
+.seite-1 section a{
+    margin-top: 50px;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
 .erfurt, .jena, .weimar{
     width: 30vw;
     display: flex;
@@ -63,28 +81,47 @@ h2{
     align-items: center;
     }
 
-.seite-2 {
+.nebenseiten  {
     padding:0 50px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;
+    
+} 
+
+.nebenseiten-background{
+    background-image: linear-gradient(to right,orange, grey, orange);
 }
 
-.seite-2 h2{
+.nebenseiten h2{
     text-align: left;
+    margin-top: 140px;
 }
 
-.h2-rechts{
-    text-align: right; 
-    margin-right: 20%;
+.h2-rechts-erfurt, .h2-rechts-weimar, .h2-rechts-jena{
+    text-align: right !important; 
+    margin-bottom: 100px;
+}
+.h2-rechts-erfurt{
+     margin-right: 20%;
+   
 }
 
-.seite-2 img{
+.h2-rechts-jena{
+   margin-right: 13%;
+}
+
+.h2-rechts-weimar{
+    margin-right: 4%; 
+}
+
+.nebenseiten img{
     width: 500px;
     height: 500px;
+   /*  border-radius: 50%; */
 }    
 
-.dom, .zoo, .ega {
+.ausflugsziel {
     display: flex;
     margin: 50px 0;
 }
@@ -99,14 +136,14 @@ p{
     text-decoration: none;
     font-size: 20px;
     padding: 20px;
-    color: black;
-    background-color: aqua; 
-    display: inline;
+   
 }
 
-.zurück-zur-hauptseite:hover{
-    color: rgb(255, 153, 0);
+div{
+    margin-top: 150px;
 }
+
+
 
 
 
