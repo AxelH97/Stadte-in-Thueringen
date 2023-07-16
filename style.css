@@ -1,11 +1,10 @@
 html{
     margin: 0;
     padding: 0;
-    height: 100vh;
-    }
+    height: 100vh;    }
 
 .seite-1-background{
-    background-image: linear-gradient(to bottom right, orange, grey, orange);
+    background-image: linear-gradient(to bottom right, orange, silver, orange);
 }
 nav{
     position: fixed;
@@ -22,7 +21,7 @@ a{
 }
 
 a:hover{
-    color: rgb(255, 153, 0);
+    color: gold;
 }
 
 nav a{
@@ -50,6 +49,7 @@ h2{
 
 img{
     border: 5px solid grey;
+
 }
 
 .seite-1 img{
@@ -112,13 +112,13 @@ img{
 }
 
 .h2-rechts-weimar{
-    margin-right: 4%; 
+    margin-right: 3%; 
 }
 
 .nebenseiten img{
     width: 500px;
     height: 500px;
-   /*  border-radius: 50%; */
+    /* border-radius: 50%; */
 }    
 
 .ausflugsziel {
@@ -130,6 +130,9 @@ p{
     width: 60vw;
     margin: 50px;
     font-size: 30px;
+    display: flex;
+    align-items: center;
+
 }
 
 .zurück-zur-hauptseite{
