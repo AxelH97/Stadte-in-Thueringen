@@ -1,11 +1,15 @@
 body{
     margin: 0;
     padding: 0;
+    }
+
+nav{
+    position: fixed;
 }
 
 nav li{
     display: inline;
-list-style-type: none;}
+    list-style-type: none;}
 
 nav a{
     text-decoration: none;
@@ -16,7 +20,7 @@ nav a{
 }
 
 nav a:hover{
-color: rgb(255, 153, 0);
+    color: rgb(255, 153, 0);
 }
 
 .seite-1 {
@@ -56,14 +60,23 @@ h2{
     width: 30vw;
     display: flex;
     flex-direction: column;
-   align-items: center;
+    align-items: center;
     }
 
 .seite-2 {
-    padding: 0 50px;
-   display: flex;
-   flex-direction: column;
-flex-wrap: wrap;  
+    padding:0 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;  
+}
+
+.seite-2 h2{
+    text-align: left;
+}
+
+#h2-rechts{
+    text-align: right; 
+    margin-right: 20%;
 }
 
 .seite-2 img{
@@ -72,14 +85,27 @@ flex-wrap: wrap;
 }    
 
 .dom, .zoo, .ega {
-display: flex;
-margin: 50px 0;
+    display: flex;
+    margin: 50px 0;
 }
 
 p{
     width: 60vw;
-    margin: 100px;
+    margin: 50px;
     font-size: 30px;
+}
+
+.zurück-zur-hauptseite{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color: black;
+    background-color: aqua; 
+    display: inline;
+}
+
+.zurück-zur-hauptseite:hover{
+    color: rgb(255, 153, 0);
 }
 
 
