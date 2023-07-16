@@ -39,6 +39,10 @@ h1{
     margin-top: 50px;
 }
 
+h1:after{
+    content: " in Thüringen";
+}
+
 .seite-1 {
     display: flex;
     justify-content: space-around;
@@ -52,13 +56,27 @@ h2 {
 
 img {
     border: 5px solid grey;
-
 }
 
 .seite-1 img {
     width: 300px;
     height: 400px;
     }
+
+#img-auf-img-1{
+    position: absolute;
+}
+
+#img-auf-img-2{
+    position: relative;
+    width: 200px;
+    height: 300px;
+}
+
+#img-auf-img-p{
+    position: absolute;
+    margin-left: 600px;
+}
 
 .stadt-ul {
     list-style-type: none;
