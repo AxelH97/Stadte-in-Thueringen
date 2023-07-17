@@ -1,5 +1,6 @@
 html {
-    height: 100vh;    
+    height: 100vh; 
+    font-family: 'Roboto', sans-serif;  
 }
 
 .seite-1-background {
@@ -74,8 +75,7 @@ img {
 }
 
 #img-auf-img-p{
-    position: absolute;
-    margin-left: 600px;
+    margin-left: 400px;
 }
 
 .stadt-ul {
@@ -85,7 +85,7 @@ img {
 
 .stadt-ul li {
     margin: 10px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .seite-1 section a {
@@ -133,7 +133,7 @@ img {
 }
 
 .h2-rechts-weimar {
-    margin-right: 3%; 
+    margin-right: 3%;
 }
 
 .nebenseiten img {
