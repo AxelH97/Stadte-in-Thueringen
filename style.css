@@ -1,172 +1,198 @@
 html {
-    height: 100vh; 
-    font-family: 'Roboto', sans-serif;  
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
 }
 
 .seite-1-background {
-    background-image: linear-gradient(to bottom right, orange, silver, orange);
+  background-image: linear-gradient(to bottom right, orange, silver, orange);
 }
 
 nav {
-    position: fixed;
-    top: 0;
-    left: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 nav li {
-    display: inline;
-    list-style-type: none;
+  display: inline;
+  list-style-type: none;
 }
 
 nav a {
-    text-decoration: none;
-    font-size: 20px;
-    padding: 20px;
+  text-decoration: none;
+  font-size: 2vh;
+  padding: 2vh;
 }
 
 a {
-   color: white;
-   background-color: black; 
+  color: white;
+  background-color: black;
 }
 
 a:hover {
-    color: gold;
+  color: gold;
 }
 
-h1{
-    font-size: 60px;
-    text-align: center;
-    text-decoration: underline;
-    margin-top: 50px;
+h1 {
+  font-size: 6vh;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 5vh;
 }
 
-h1:after{
-    content: " in Thüringen";
+h1:after {
+  content: " in Thüringen";
 }
 
 .seite-1 {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 h2 {
-    font-size: 40px;
-    text-decoration: underline;
-    text-align: center;
+  font-size: 4vh;
+  text-decoration: underline;
+  text-align: center;
 }
 
 img {
-    border: 5px solid grey;
+  border: 5px solid grey;
 }
 
 .seite-1 img {
-    width: 300px;
-    height: 400px;
-    }
-
-#img-auf-img-1{
-    position: absolute;
+  width: 15vw;
+  height: 40vh;
 }
 
-#img-auf-img-2{
-    position: relative;
-    width: 200px;
-    height: 300px;
+#img-auf-img-1 {
+  position: absolute;
 }
 
-#img-auf-img-p{
-    margin-left: 400px;
+#img-auf-img-2 {
+  position: relative;
+  width: 12vw;
+  height: 30vh;
+}
+
+#img-auf-img-p {
+  margin-left: 40vh;
 }
 
 .stadt-ul {
-    list-style-type: none;
-    font-weight: bold;
+  list-style-type: none;
+  font-weight: bold;
 }
 
 .stadt-ul li {
-    margin: 10px;
-    font-size: 18px;
+  margin: 10px;
+  font-size: 18px;
 }
 
 .seite-1 section a {
-    margin-top: 50px;
-    text-decoration: none;
-    padding: 10px;
-    
+  margin-top: 50px;
+  text-decoration: none;
+  padding: 10px;
 }
 
 .städte-seite-1 {
-    width: 30vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .nebenseiten {
-    padding:0 50px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-} 
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 
 .nebenseiten-background {
-    background-image: linear-gradient(to right,orange, grey, orange);
+  background-image: linear-gradient(to right, orange, grey, orange);
 }
 
 .nebenseiten h2 {
-    text-align: left;
-    margin-top: 140px;
+  text-align: left;
+  margin-top: 14vh;
 }
 
-.h2-rechts-erfurt, .h2-rechts-weimar, .h2-rechts-jena {
-    text-align: right !important; 
-    margin-bottom: 100px;
+.h2-rechts-erfurt,
+.h2-rechts-weimar,
+.h2-rechts-jena {
+  text-align: right !important;
+  margin-bottom: 10vh;
 }
 
 .h2-rechts-erfurt {
-     margin-right: 20%;
-   
+  margin-right: 20%;
 }
 
 .h2-rechts-jena {
-   margin-right: 13%;
+  margin-right: 13%;
 }
 
 .h2-rechts-weimar {
-    margin-right: 3%;
+  margin-right: 3%;
 }
 
 .nebenseiten img {
-    width: 500px;
-    height: 500px;
-    /* border-radius: 50%; */
-}    
+  width: 50vh;
+  height: 50vh;
+  /* border-radius: 50%; */
+}
 
 .ausflugsziel {
-    display: flex;
-    margin: 50px 0;
+  display: flex;
+  margin: 5vh 0;
 }
 
 p {
-    display: flex;
-    align-items: center;
-    width: 60vw;
-    margin: 50px;
-    font-size: 30px;
+  align-items: center;
+  width: 60vw;
+  margin: 5vh;
+  font-size: 3vh;
 }
 
 .zurück-zur-hauptseite {
-    text-decoration: none;
-    font-size: 20px;
-    padding: 20px;
-   
+  text-decoration: none;
+  font-size: 2vh;
+  padding: 2vh;
 }
 
 div {
-    margin-top: 150px;
+  margin-top: 15vh;
 }
 
+@media (max-width: 800px) {
+  nav {
+    display: none;
+  }
+  .seite-1 {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .seite-1 img {
+    width: 50vw;
+    height: 40vh;
+  }
+  .nebenseiten {
+    flex-direction: column;
+    flex-wrap: nowrap;
 
+    align-items: center;
+  }
 
+  .ausflugsziel {
+    flex-direction: column;
+  }
 
-
+  #img-auf-img-p {
+    margin: 0;
+    margin-top: 25vh;
+  }
+  p {
+    width: 80vw;
+  }
+}
